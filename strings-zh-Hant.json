@@ -1,0 +1,2036 @@
+[
+  {
+    "id": "vm.pairing-file-loaded",
+    "en": "Pairing file loaded ✅ (\\(originalName ?? \"aircard_pairing.plist\"))",
+    "zh_Hant": "配對檔已載入 ✅ (\\(originalName ?? \"aircard_pairing.plist\"))",
+    "notes": "fixed full string with nested ?? quotes"
+  },
+  {
+    "id": "vm.pairing-file-loaded-default",
+    "en": "aircard_pairing.plist",
+    "zh_Hant": "aircard_pairing.plist",
+    "notes": "nil-coalescing default inside vm.pairing-file-loaded; KEEP filename"
+  },
+  {
+    "id": "vm.failed-to-save-pairing-file-n",
+    "en": "Failed to save pairing file: \\(error.localizedDescription)",
+    "zh_Hant": "無法儲存配對檔：\\(error.localizedDescription)",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.starting-local-host",
+    "en": "Starting local host…",
+    "zh_Hant": "正在啟動本機主機…",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "vm.paired-successfully",
+    "en": "Paired successfully! ✅",
+    "zh_Hant": "配對成功！✅",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "vm.pairing-complete-n",
+    "en": "Pairing complete: \\(path)",
+    "zh_Hant": "配對完成：\\(path)",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.cancelled",
+    "en": "Cancelled.",
+    "zh_Hant": "已取消。",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "vm.pairing-failed-n",
+    "en": "Pairing failed: \\(error.localizedDescription)",
+    "zh_Hant": "配對失敗：\\(error.localizedDescription)",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.pairing-file-deleted",
+    "en": "Pairing file deleted",
+    "zh_Hant": "配對檔已刪除",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "vm.pairing-file-is-required-before-scanning-pair-this-ipho",
+    "en": "Pairing file is required before scanning. Pair this iPhone or select a .plist first.",
+    "zh_Hant": "掃描前需要配對檔。請先配對此 iPhone，或選取一個 .plist。",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.open-apple-pay-double-click-side-button-and-tap-your-ca",
+    "en": "Open Apple Pay (double-click Side button) and tap your card…",
+    "zh_Hant": "開啟 Apple Pay（連按兩下 Side button）並輕點你的卡片…",
+    "notes": "UI-bound scanStatusText"
+  },
+  {
+    "id": "vm.started-live-card-scanner",
+    "en": "Started live card scanner…",
+    "zh_Hant": "已啟動即時卡片掃描…",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.scanner-stopped-n",
+    "en": "Scanner stopped: \\(msg)",
+    "zh_Hant": "掃描已停止：\\(msg)",
+    "notes": "UI-bound scanStatusText"
+  },
+  {
+    "id": "vm.scanner-error-n",
+    "en": "❌ Scanner error: \\(msg)",
+    "zh_Hant": "❌ 掃描錯誤：\\(msg)",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.card-scanner-error-n",
+    "en": "Card scanner error: \\(msg)",
+    "zh_Hant": "卡片掃描錯誤：\\(msg)",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.scanning-stopped-total-cards-n",
+    "en": "Scanning stopped. Total cards: \\(vm.cards.count).",
+    "zh_Hant": "掃描已停止。卡片總數：\\(vm.cards.count)。",
+    "notes": "UI-bound scanStatusText"
+  },
+  {
+    "id": "vm.scanning-stopped-total-cards-n-2",
+    "en": "Scanning stopped. Total cards: \\(vm.cards.count).",
+    "zh_Hant": "掃描已停止。卡片總數：\\(vm.cards.count)。",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.scanning-stopped-total-cards-n-3",
+    "en": "Scanning stopped. Total cards: \\(cards.count).",
+    "zh_Hant": "掃描已停止。卡片總數：\\(cards.count)。",
+    "notes": "UI-bound scanStatusText"
+  },
+  {
+    "id": "vm.found-card-n",
+    "en": "Found card: \\(candidate)",
+    "zh_Hant": "找到卡片：\\(candidate)",
+    "notes": "UI-bound scanStatusText"
+  },
+  {
+    "id": "vm.found-card-n-2",
+    "en": "Found card: \\(candidate)",
+    "zh_Hant": "找到卡片：\\(candidate)",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.notice-loopback-vpn-not-detected-attempting-direct-loop",
+    "en": "⚠️ Notice: Loopback VPN not detected, attempting direct loopback (127.0.0.1)...",
+    "zh_Hant": "⚠️ 注意：未偵測到 Loopback VPN，改以直接 loopback（127.0.0.1）嘗試...",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.n-n-flashing-card-n",
+    "en": "[\\(i+1)/\\(selected.count)] Flashing card \\(cleanId.prefix(12))…",
+    "zh_Hant": "[\\(i+1)/\\(selected.count)] 正在刷寫卡片 \\(cleanId.prefix(12))…",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.no-image-for-card-n",
+    "en": "  ⚠️ No image for card \\(cleanId.prefix(8))",
+    "zh_Hant": "  ⚠️ 卡片 \\(cleanId.prefix(8)) 沒有圖片",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.failed-to-generate-card-skins",
+    "en": "  ⚠️ Failed to generate card skins",
+    "zh_Hant": "  ⚠️ 無法產生卡片外觀",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.injecting-skins-into-n-pkpass",
+    "en": "  ⚡ Injecting skins into \\(cleanId.prefix(10)).pkpass…",
+    "zh_Hant": "  ⚡ 正在將外觀注入 \\(cleanId.prefix(10)).pkpass…",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.failed-write-card-skins",
+    "en": "  ❌ Failed to write card skins: \\(errDesc ?? \"exploit error\")",
+    "zh_Hant": "  ❌ 無法寫入卡片外觀：\\(errDesc ?? \"exploit error\")",
+    "notes": "fixed full string with nested ?? quotes"
+  },
+  {
+    "id": "vm.failed-write-card-skins-default",
+    "en": "exploit error",
+    "zh_Hant": "exploit error",
+    "notes": "nil-coalescing default inside vm.failed-write-card-skins"
+  },
+  {
+    "id": "vm.skins-applied-invalidating-pass-cache",
+    "en": "  ✅ Skins applied! Invalidating pass cache…",
+    "zh_Hant": "  ✅ 外觀已套用！正在使通行卡快取失效…",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.pass-cache-invalidated",
+    "en": "  ✅ Pass cache invalidated",
+    "zh_Hant": "  ✅ 通行卡快取已失效",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.n-n-card-s-flashed-force-close-wallet-app-to-see-change",
+    "en": "🎉 \\(successCount)/\\(selected.count) card(s) flashed! Force-close Wallet app to see changes.",
+    "zh_Hant": "🎉 已刷寫 \\(successCount)/\\(selected.count) 張卡片！請強制關閉 Wallet App 以查看變更。",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.skins-successfully-applied-to-n-card-s-n-to-see-your-ne",
+    "en": "Skins successfully applied to \\(successCount) card(s)!\\n\\nPlease force-close the Wallet app on your iPhone (or reboot) to see your new designs.",
+    "zh_Hant": "已成功將外觀套用至 \\(successCount) 張卡片！\\n\\n請在 iPhone 上強制關閉 Wallet App（或重新開機）以查看新設計。",
+    "notes": "UI-bound successAlertMessage"
+  },
+  {
+    "id": "vm.card-flash-failed-check-connection-and-try-again",
+    "en": "❌ Card flash failed. Check connection and try again.",
+    "zh_Hant": "❌ 卡片刷寫失敗。請檢查連線後再試一次。",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.failed-to-read-passthm-invalid-or-unsupported-format",
+    "en": "Failed to read .passthm — invalid or unsupported format.",
+    "zh_Hant": "無法讀取 .passthm — 格式無效或不支援。",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.no-key-images-loaded",
+    "en": "No key images loaded.",
+    "zh_Hant": "尚未載入按鍵圖片。",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.notice-loopback-vpn-not-detected-attempting-direct-loop-2",
+    "en": "⚠️ Notice: Loopback VPN not detected, attempting direct loopback (127.0.0.1)...",
+    "zh_Hant": "⚠️ 注意：未偵測到 Loopback VPN，改以直接 loopback（127.0.0.1）嘗試...",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.staged-theme-assets-n-langs-joined-separator",
+    "en": "⚡ Staged theme assets (\\(targetVer) · \\(langs.joined(separator: \", \").uppercased()) · \\(targetBold.code)). Injecting into iOS caches…",
+    "zh_Hant": "⚡ 已暫存主題資源 (\\(targetVer) · \\(langs.joined(separator: \", \").uppercased()) · \\(targetBold.code))。正在注入到 iOS 快取…",
+    "notes": "visible in Activity/Flash Log; EN restored (source table truncated on nested backticks)"
+  },
+  {
+    "id": "vm.writing-to-n",
+    "en": "  Writing to \\(targetName)…",
+    "zh_Hant": "  正在寫入 \\(targetName)…",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.write-to-n-failed",
+    "en": "  ⚠️ Write to \\(targetName) failed: \\(lastErr ?? \"error\")",
+    "zh_Hant": "  ⚠️ 寫入 \\(targetName) 失敗：\\(lastErr ?? \"error\")",
+    "notes": "fixed full string with nested ?? quotes"
+  },
+  {
+    "id": "vm.write-to-n-failed-default",
+    "en": "error",
+    "zh_Hant": "error",
+    "notes": "nil-coalescing default inside vm.write-to-n-failed"
+  },
+  {
+    "id": "vm.injected-into-n",
+    "en": "  ✅ Injected into \\(targetName)",
+    "zh_Hant": "  ✅ 已注入到 \\(targetName)",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.passcode-theme-applied-lock-your-iphone-to-see-it",
+    "en": "🎉 Passcode theme applied! Lock your iPhone to see it.",
+    "zh_Hant": "🎉 密碼主題已套用！請鎖定 iPhone 以查看效果。",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.passcode-theme-successfully-applied-n-to-see-your-new-p",
+    "en": "Passcode theme successfully applied!\\n\\nLock your iPhone (or restart) to see your new passcode keypad.",
+    "zh_Hant": "密碼主題已成功套用！\\n\\n請鎖定 iPhone（或重新開機）以查看新的密碼鍵盤。",
+    "notes": "UI-bound successAlertMessage"
+  },
+  {
+    "id": "vm.one-or-more-theme-injections-failed",
+    "en": "❌ One or more theme injections failed.",
+    "zh_Hant": "❌ 一或多個主題注入失敗。",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.please-configure-at-least-one-key-before-exporting",
+    "en": "Please configure at least one key before exporting.",
+    "zh_Hant": "匯出前請至少設定一個按鍵。",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.failed-to-export-theme-n",
+    "en": "Failed to export theme: \\(error.localizedDescription)",
+    "zh_Hant": "無法匯出主題：\\(error.localizedDescription)",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.failed-to-import-n-n",
+    "en": "Failed to import \\(url.lastPathComponent): \\(error.localizedDescription)",
+    "zh_Hant": "無法匯入 \\(url.lastPathComponent)：\\(error.localizedDescription)",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.no-pairing-file-active-pair-your-device-first-in-the-pa",
+    "en": "No pairing file active. Pair your device first in the Pairing tab.",
+    "zh_Hant": "目前沒有作用中的配對檔。請先到「配對」分頁配對裝置。",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.auto-detect-failed-n-nensure-localdevvpn-is-connected-a",
+    "en": "Auto-detect failed: \\(error.localizedDescription)\\nEnsure LocalDevVPN is connected and device is unlocked.",
+    "zh_Hant": "自動偵測失敗：\\(error.localizedDescription)\\n請確認 LocalDevVPN 已連線且裝置已解鎖。",
+    "notes": "UI-bound errorMessage; KEEP product name LocalDevVPN"
+  },
+  {
+    "id": "vm.no-wallpapers-selected-to-flash",
+    "en": "No wallpapers selected to flash.",
+    "zh_Hant": "尚未選取要刷寫的桌布。",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.no-pairing-file-active-please-pair-your-device-first",
+    "en": "No pairing file active. Please pair your device first.",
+    "zh_Hant": "目前沒有作用中的配對檔。請先配對裝置。",
+    "notes": "UI-bound errorMessage"
+  },
+  {
+    "id": "vm.posterboard-container-could-not-be-found-automatically-",
+    "en": "PosterBoard container could not be found automatically. Ensure LocalDevVPN is connected and iPhone is unlocked.",
+    "zh_Hant": "無法自動找到 PosterBoard 容器。請確認 LocalDevVPN 已連線且 iPhone 已解鎖。",
+    "notes": "UI-bound errorMessage; KEEP product name LocalDevVPN"
+  },
+  {
+    "id": "vm.wallpapers-applied-successfully",
+    "en": "🎉 Wallpapers applied successfully!",
+    "zh_Hant": "🎉 桌布已成功套用！",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.triggering-neospring-respring",
+    "en": "⚡ Triggering NeoSpring respring...",
+    "zh_Hant": "⚡ 正在觸發 NeoSpring 重新載入 SpringBoard...",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.error-n",
+    "en": "❌ Error: \\(error.localizedDescription)",
+    "zh_Hant": "❌ 錯誤：\\(error.localizedDescription)",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "vm.triggering-neospring-respring-2",
+    "en": "⚡ Triggering NeoSpring respring...",
+    "zh_Hant": "⚡ 正在觸發 NeoSpring 重新載入 SpringBoard...",
+    "notes": "visible in Activity/Flash Log"
+  },
+  {
+    "id": "ui.aircard-ios",
+    "en": "AirCard-iOS",
+    "zh_Hant": "AirCard-iOS",
+    "notes": "KEEP TOKEN `AirCard-iOS` (Bonjour/pairing display name; CN README)"
+  },
+  {
+    "id": "ui.apple-wallet-skins-passcode-themes-for-ios-18",
+    "en": "Apple Wallet Skins & Passcode Themes for iOS 18+",
+    "zh_Hant": "適用於 iOS 18+ 的 Apple Wallet 卡片外觀與密碼主題",
+    "notes": ""
+  },
+  {
+    "id": "ui.lead-core-developer",
+    "en": "Lead & Core Developer",
+    "zh_Hant": "主導與核心開發者",
+    "notes": ""
+  },
+  {
+    "id": "ui.chief",
+    "en": "Chief",
+    "zh_Hant": "首席",
+    "notes": ""
+  },
+  {
+    "id": "ui.mak5er",
+    "en": "@mak5er",
+    "zh_Hant": "@mak5er",
+    "notes": "KEEP proper noun / handle; KEEP proper noun/handle"
+  },
+  {
+    "id": "ui.https-github-com-mak5er",
+    "en": "https://github.com/mak5er",
+    "zh_Hant": "https://github.com/mak5er",
+    "notes": ""
+  },
+  {
+    "id": "ui.github",
+    "en": "GitHub",
+    "zh_Hant": "GitHub",
+    "notes": "KEEP proper noun / handle; KEEP proper noun/handle"
+  },
+  {
+    "id": "ui.https-x-com-mak5er",
+    "en": "https://x.com/mak5er",
+    "zh_Hant": "https://x.com/mak5er",
+    "notes": ""
+  },
+  {
+    "id": "ui.twitter-x",
+    "en": "Twitter / X",
+    "zh_Hant": "Twitter / X",
+    "notes": "KEEP proper noun / handle; KEEP proper noun/handle"
+  },
+  {
+    "id": "ui.base-ipa-developer",
+    "en": "Base IPA Developer",
+    "zh_Hant": "基礎 IPA 開發者",
+    "notes": ""
+  },
+  {
+    "id": "ui.base",
+    "en": "Base",
+    "zh_Hant": "基礎",
+    "notes": ""
+  },
+  {
+    "id": "ui.merybist",
+    "en": "@merybist",
+    "zh_Hant": "@merybist",
+    "notes": "KEEP proper noun / handle; KEEP proper noun/handle"
+  },
+  {
+    "id": "ui.https-github-com-merybist",
+    "en": "https://github.com/merybist",
+    "zh_Hant": "https://github.com/merybist",
+    "notes": ""
+  },
+  {
+    "id": "ui.github-2",
+    "en": "GitHub",
+    "zh_Hant": "GitHub",
+    "notes": "KEEP proper noun / handle; KEEP proper noun/handle"
+  },
+  {
+    "id": "ui.https-x-com-merybist",
+    "en": "https://x.com/merybist",
+    "zh_Hant": "https://x.com/merybist",
+    "notes": ""
+  },
+  {
+    "id": "ui.twitter-x-2",
+    "en": "Twitter / X",
+    "zh_Hant": "Twitter / X",
+    "notes": "KEEP proper noun / handle; KEEP proper noun/handle"
+  },
+  {
+    "id": "ui.core-exploit",
+    "en": "Core Exploit",
+    "zh_Hant": "核心 Exploit",
+    "notes": ""
+  },
+  {
+    "id": "ui.airlift-airtraffic-sync-sandbox-escape",
+    "en": "airlift (AirTraffic sync sandbox escape)",
+    "zh_Hant": "airlift（AirTraffic 同步沙盒逃逸）",
+    "notes": ""
+  },
+  {
+    "id": "ui.passcode-themes",
+    "en": "Passcode Themes",
+    "zh_Hant": "密碼主題",
+    "notes": ""
+  },
+  {
+    "id": "ui.neospring-posterboard",
+    "en": "NeoSpring & PosterBoard",
+    "zh_Hant": "NeoSpring & PosterBoard",
+    "notes": ""
+  },
+  {
+    "id": "ui.springboard-reload-tendies-wallpapers-neonmodder123-ska",
+    "en": "SpringBoard reload & .tendies wallpapers (@neonmodder123, @skadz108, @rooootdev)",
+    "zh_Hant": "SpringBoard 重新載入與 .tendies 桌布（@neonmodder123、@skadz108、@rooootdev）",
+    "notes": ""
+  },
+  {
+    "id": "ui.credits",
+    "en": "Credits",
+    "zh_Hant": "致謝",
+    "notes": ""
+  },
+  {
+    "id": "ui.done",
+    "en": "Done",
+    "zh_Hant": "完成",
+    "notes": ""
+  },
+  {
+    "id": "ui.copied",
+    "en": "Copied",
+    "zh_Hant": "已複製",
+    "notes": "CompactLogView after copy"
+  },
+  {
+    "id": "ui.pairing",
+    "en": "Pairing",
+    "zh_Hant": "配對",
+    "notes": ""
+  },
+  {
+    "id": "ui.wallet-cards",
+    "en": "Wallet Cards",
+    "zh_Hant": "Wallet 卡片",
+    "notes": ""
+  },
+  {
+    "id": "ui.passcode",
+    "en": "Passcode",
+    "zh_Hant": "密碼",
+    "notes": ""
+  },
+  {
+    "id": "ui.wallpapers",
+    "en": "Wallpapers",
+    "zh_Hant": "桌布",
+    "notes": ""
+  },
+  {
+    "id": "ui.notice",
+    "en": "Notice",
+    "zh_Hant": "注意",
+    "notes": ""
+  },
+  {
+    "id": "ui.ok",
+    "en": "OK",
+    "zh_Hant": "確定",
+    "notes": ""
+  },
+  {
+    "id": "ui.success",
+    "en": "Success! 🎉",
+    "zh_Hant": "成功！🎉",
+    "notes": ""
+  },
+  {
+    "id": "ui.ok-2",
+    "en": "OK",
+    "zh_Hant": "確定",
+    "notes": ""
+  },
+  {
+    "id": "ui.aircard-ios-2",
+    "en": "AirCard-iOS",
+    "zh_Hant": "AirCard-iOS",
+    "notes": "KEEP TOKEN `AirCard-iOS` (Bonjour/pairing display name; CN README)"
+  },
+  {
+    "id": "ui.ios-n-v1-3",
+    "en": "iOS \\(ProcessInfo.processInfo.operatingSystemVersion.majorVersion) · v1.3",
+    "zh_Hant": "iOS \\(ProcessInfo.processInfo.operatingSystemVersion.majorVersion) · v1.3",
+    "notes": ""
+  },
+  {
+    "id": "ui.apply-custom-wallet-card-skins-and-passcode-themes-on-d",
+    "en": "Apply custom wallet card skins and passcode themes on-device using the AirTraffic sandbox escape.",
+    "zh_Hant": "透過 AirTraffic 沙盒逃逸，在裝置上套用自訂 Wallet 卡片外觀與密碼主題。",
+    "notes": ""
+  },
+  {
+    "id": "ui.network",
+    "en": "Network",
+    "zh_Hant": "網路",
+    "notes": ""
+  },
+  {
+    "id": "ui.active-pairing",
+    "en": "Active Pairing",
+    "zh_Hant": "作用中的配對",
+    "notes": ""
+  },
+  {
+    "id": "ui.ready-to-exploit",
+    "en": "Ready to exploit ✅",
+    "zh_Hant": "已準備好執行 exploit ✅",
+    "notes": ""
+  },
+  {
+    "id": "ui.n-n",
+    "en": "\\(vm.pairingFileName) (\\(vm.pairingFileSizeString))",
+    "zh_Hant": "\\(vm.pairingFileName) (\\(vm.pairingFileSizeString))",
+    "notes": ""
+  },
+  {
+    "id": "ui.not-paired",
+    "en": "Not Paired",
+    "zh_Hant": "尚未配對",
+    "notes": ""
+  },
+  {
+    "id": "ui.tap-pair-this-iphone-below-to-pair",
+    "en": "Tap 'Pair This iPhone' below to pair.",
+    "zh_Hant": "輕點下方「配對此 iPhone」以進行配對。",
+    "notes": ""
+  },
+  {
+    "id": "ui.delete-pairing-session",
+    "en": "Delete pairing session?",
+    "zh_Hant": "要刪除配對工作階段嗎？",
+    "notes": ""
+  },
+  {
+    "id": "ui.delete",
+    "en": "Delete",
+    "zh_Hant": "刪除",
+    "notes": ""
+  },
+  {
+    "id": "ui.cancel",
+    "en": "Cancel",
+    "zh_Hant": "取消",
+    "notes": ""
+  },
+  {
+    "id": "ui.delete-pairing-message",
+    "en": "The active pairing credentials will be removed.",
+    "zh_Hant": "作用中的配對憑證將會被移除。",
+    "notes": "confirmationDialog message"
+  },
+  {
+    "id": "ui.pair-on-this-iphone",
+    "en": "Pair on This iPhone",
+    "zh_Hant": "在此 iPhone 上配對",
+    "notes": ""
+  },
+  {
+    "id": "ui.starting-local-pairing-host",
+    "en": "Starting local pairing host…",
+    "zh_Hant": "正在啟動本機配對主機…",
+    "notes": ""
+  },
+  {
+    "id": "ui.enter-this-pin-on-this-iphone",
+    "en": "ENTER THIS PIN ON THIS IPHONE:",
+    "zh_Hant": "請在此 iPhone 輸入此 PIN：",
+    "notes": ""
+  },
+  {
+    "id": "ui.copy-2",
+    "en": "Copy",
+    "zh_Hant": "複製",
+    "notes": ""
+  },
+  {
+    "id": "ui.settings-privacy-security-developer-mode-pair-with-airc",
+    "en": "Settings › Privacy & Security › Developer Mode › Pair with AirCard-iOS",
+    "zh_Hant": "設定 › 隱私權與安全性 › 開發人員模式 › Pair with AirCard-iOS",
+    "notes": "KEEP substring `AirCard-iOS` in path (system Settings label)"
+  },
+  {
+    "id": "ui.open-settings-app-now",
+    "en": "Open Settings App Now",
+    "zh_Hant": "立即開啟「設定」App",
+    "notes": ""
+  },
+  {
+    "id": "ui.cancel-pairing",
+    "en": "Cancel Pairing",
+    "zh_Hant": "取消配對",
+    "notes": ""
+  },
+  {
+    "id": "ui.pair-this-iphone",
+    "en": "Pair This iPhone",
+    "zh_Hant": "配對此 iPhone",
+    "notes": ""
+  },
+  {
+    "id": "ui.re-pair-this-iphone",
+    "en": "Re-Pair This iPhone",
+    "zh_Hant": "重新配對此 iPhone",
+    "notes": ""
+  },
+  {
+    "id": "ui.activity-log-n-lines",
+    "en": "Activity Log (\\(vm.log.count) lines)",
+    "zh_Hant": "活動紀錄（\\(vm.log.count) 行）",
+    "notes": ""
+  },
+  {
+    "id": "ui.aircard-ios-3",
+    "en": "AirCard-iOS",
+    "zh_Hant": "AirCard-iOS",
+    "notes": "KEEP TOKEN `AirCard-iOS` (Bonjour/pairing display name; CN README)"
+  },
+  {
+    "id": "ui.credits-2",
+    "en": "Credits",
+    "zh_Hant": "致謝",
+    "notes": ""
+  },
+  {
+    "id": "ui.loopback-vpn-active",
+    "en": "Loopback VPN Active",
+    "zh_Hant": "Loopback VPN 作用中",
+    "notes": ""
+  },
+  {
+    "id": "ui.loopback-vpn-not-detected",
+    "en": "Loopback VPN Not Detected",
+    "zh_Hant": "未偵測到 Loopback VPN",
+    "notes": ""
+  },
+  {
+    "id": "ui.rsd-tunnel-ready",
+    "en": "RSD tunnel ready — exploit will connect.",
+    "zh_Hant": "RSD 通道就緒 — exploit 即將連線。",
+    "notes": ""
+  },
+  {
+    "id": "ui.connect-localdevvpn-before-flashes",
+    "en": "Connect LocalDevVPN before running flashes.",
+    "zh_Hant": "執行刷寫前請先連線 LocalDevVPN。",
+    "notes": "KEEP product name LocalDevVPN"
+  },
+  {
+    "id": "ui.setup-localdevvpn",
+    "en": "Setup LocalDevVPN:",
+    "zh_Hant": "設定 LocalDevVPN：",
+    "notes": "KEEP product name LocalDevVPN"
+  },
+  {
+    "id": "ui.1-open-localdevvpn-app-and-tap-connect",
+    "en": "1. Open LocalDevVPN app and tap Connect.",
+    "zh_Hant": "1. 開啟 LocalDevVPN App 並輕點連線。",
+    "notes": "VPN/setup instruction step; KEEP product name LocalDevVPN"
+  },
+  {
+    "id": "ui.2-return-to-aircard-ios-status-indicator-turns-green",
+    "en": "2. Return to AirCard-iOS — status indicator turns green.",
+    "zh_Hant": "2. 返回 AirCard-iOS — 狀態指示會變成綠色。",
+    "notes": "VPN/setup instruction step"
+  },
+  {
+    "id": "ui.launch-localdevvpn",
+    "en": "Launch LocalDevVPN",
+    "zh_Hant": "啟動 LocalDevVPN",
+    "notes": "KEEP product name LocalDevVPN"
+  },
+  {
+    "id": "ui.device-ip",
+    "en": "Device IP:",
+    "zh_Hant": "裝置 IP：",
+    "notes": ""
+  },
+  {
+    "id": "ui.assign-card-skin",
+    "en": "Assign Card Skin",
+    "zh_Hant": "指定卡片外觀",
+    "notes": ""
+  },
+  {
+    "id": "ui.tap-to-choose-photo",
+    "en": "Tap to choose photo",
+    "zh_Hant": "輕點以選擇照片",
+    "notes": ""
+  },
+  {
+    "id": "ui.card-n",
+    "en": "Card #\\(cardIndex + 1)",
+    "zh_Hant": "卡片 #\\(cardIndex + 1)",
+    "notes": ""
+  },
+  {
+    "id": "ui.wallet-cards-n",
+    "en": "Wallet Cards (\\(vm.cards.count))",
+    "zh_Hant": "Wallet 卡片（\\(vm.cards.count)）",
+    "notes": ""
+  },
+  {
+    "id": "ui.scan-cards",
+    "en": "Scan Cards",
+    "zh_Hant": "掃描卡片",
+    "notes": ""
+  },
+  {
+    "id": "ui.stop-scan",
+    "en": "Stop Scan",
+    "zh_Hant": "停止掃描",
+    "notes": ""
+  },
+  {
+    "id": "ui.add-card-manually",
+    "en": "Add Card Manually",
+    "zh_Hant": "手動新增卡片",
+    "notes": ""
+  },
+  {
+    "id": "ui.set-skin-for-all-cards",
+    "en": "Set Skin for All Cards...",
+    "zh_Hant": "為所有卡片設定外觀...",
+    "notes": ""
+  },
+  {
+    "id": "ui.select-all",
+    "en": "Select All",
+    "zh_Hant": "全選",
+    "notes": ""
+  },
+  {
+    "id": "ui.deselect-all",
+    "en": "Deselect All",
+    "zh_Hant": "取消全選",
+    "notes": ""
+  },
+  {
+    "id": "ui.clear-all-cards",
+    "en": "Clear All Cards",
+    "zh_Hant": "清除所有卡片",
+    "notes": ""
+  },
+  {
+    "id": "ui.credits-3",
+    "en": "Credits",
+    "zh_Hant": "致謝",
+    "notes": ""
+  },
+  {
+    "id": "ui.choose-image-source",
+    "en": "Choose Image Source",
+    "zh_Hant": "選擇圖片來源",
+    "notes": ""
+  },
+  {
+    "id": "ui.photo-library",
+    "en": "Photo Library",
+    "zh_Hant": "照片圖庫",
+    "notes": ""
+  },
+  {
+    "id": "ui.choose-from-files",
+    "en": "Choose from Files…",
+    "zh_Hant": "從「檔案」選擇…",
+    "notes": ""
+  },
+  {
+    "id": "ui.cancel-2",
+    "en": "Cancel",
+    "zh_Hant": "取消",
+    "notes": ""
+  },
+  {
+    "id": "ui.live-scanner-active",
+    "en": "Live Scanner Active",
+    "zh_Hant": "即時掃描作用中",
+    "notes": ""
+  },
+  {
+    "id": "ui.scanner-status",
+    "en": "Scanner Status",
+    "zh_Hant": "掃描狀態",
+    "notes": ""
+  },
+  {
+    "id": "ui.stop",
+    "en": "Stop",
+    "zh_Hant": "停止",
+    "notes": ""
+  },
+  {
+    "id": "ui.flash-log-n-lines",
+    "en": "Flash Log (\\(vm.cardFlashLog.count) lines)",
+    "zh_Hant": "刷寫紀錄（\\(vm.cardFlashLog.count) 行）",
+    "notes": ""
+  },
+  {
+    "id": "ui.flashing",
+    "en": "Flashing…",
+    "zh_Hant": "刷寫中…",
+    "notes": ""
+  },
+  {
+    "id": "ui.retry",
+    "en": "Retry",
+    "zh_Hant": "重試",
+    "notes": ""
+  },
+  {
+    "id": "ui.flash",
+    "en": "Flash",
+    "zh_Hant": "刷寫",
+    "notes": ""
+  },
+  {
+    "id": "ui.no-cards-detected-yet",
+    "en": "No Cards Detected Yet",
+    "zh_Hant": "尚未偵測到卡片",
+    "notes": ""
+  },
+  {
+    "id": "ui.tap-scan-cards-in-the-toolbar-above",
+    "en": "Tap **Scan Cards** in the toolbar above.",
+    "zh_Hant": "輕點上方工具列的 **掃描卡片**。",
+    "notes": ""
+  },
+  {
+    "id": "ui.on-this-iphone-double-click-the-side-button-apple-pay-a",
+    "en": "On this iPhone, **double-click the Side button** (Apple Pay), authenticate with **Face ID**, and **tap your card**.",
+    "zh_Hant": "在此 iPhone 上，**連按兩下 Side button**（Apple Pay），以 **Face ID** 驗證，然後**輕點你的卡片**。",
+    "notes": ""
+  },
+  {
+    "id": "ui.your-card-will-appear-here-automatically",
+    "en": "Your card will appear here automatically!",
+    "zh_Hant": "你的卡片會自動出現在這裡！",
+    "notes": ""
+  },
+  {
+    "id": "ui.scan-cards-2",
+    "en": "Scan Cards",
+    "zh_Hant": "掃描卡片",
+    "notes": ""
+  },
+  {
+    "id": "ui.stop-scan-2",
+    "en": "Stop Scan",
+    "zh_Hant": "停止掃描",
+    "notes": ""
+  },
+  {
+    "id": "ui.add-manually",
+    "en": "Add Manually",
+    "zh_Hant": "手動新增",
+    "notes": ""
+  },
+  {
+    "id": "ui.card-hash",
+    "en": "Card Hash",
+    "zh_Hant": "卡片雜湊",
+    "notes": ""
+  },
+  {
+    "id": "ui.paste-card-hash-e-g-m6ndwzrkybfl",
+    "en": "Paste card hash (e.g. M6nDwZrkYbFl…)",
+    "zh_Hant": "貼上卡片雜湊（例如 M6nDwZrkYbFl…）",
+    "notes": ""
+  },
+  {
+    "id": "ui.you-can-add-multiple-hashes-at-once-separate-them-with-",
+    "en": "You can add multiple hashes at once — separate them with spaces, commas, or newlines.",
+    "zh_Hant": "可一次新增多個雜湊 — 以空格、逗號或換行分隔。",
+    "notes": ""
+  },
+  {
+    "id": "ui.add-card",
+    "en": "Add Card",
+    "zh_Hant": "新增卡片",
+    "notes": ""
+  },
+  {
+    "id": "ui.cancel-3",
+    "en": "Cancel",
+    "zh_Hant": "取消",
+    "notes": ""
+  },
+  {
+    "id": "ui.add",
+    "en": "Add",
+    "zh_Hant": "新增",
+    "notes": ""
+  },
+  {
+    "id": "ui.mode",
+    "en": "Mode",
+    "zh_Hant": "模式",
+    "notes": "Picker label (segmented Apply/Create)"
+  },
+  {
+    "id": "ui.flash-log-n-lines-2",
+    "en": "Flash Log (\\(vm.passthmFlashLog.count) lines)",
+    "zh_Hant": "刷寫紀錄（\\(vm.passthmFlashLog.count) 行）",
+    "notes": ""
+  },
+  {
+    "id": "ui.passcode-theme",
+    "en": "Passcode Theme",
+    "zh_Hant": "密碼主題",
+    "notes": ""
+  },
+  {
+    "id": "ui.themes-in-app-folder-on-my-iphone-aircard-ios",
+    "en": "Themes in App Folder (On My iPhone › AirCard-iOS)",
+    "zh_Hant": "App 資料夾中的主題（我的 iPhone › AirCard-iOS）",
+    "notes": "KEEP substring AirCard-iOS"
+  },
+  {
+    "id": "ui.load",
+    "en": "Load",
+    "zh_Hant": "載入",
+    "notes": ""
+  },
+  {
+    "id": "ui.browse-files",
+    "en": "Browse Files",
+    "zh_Hant": "瀏覽檔案",
+    "notes": ""
+  },
+  {
+    "id": "ui.change-passthm",
+    "en": "Change .passthm…",
+    "zh_Hant": "更換 .passthm…",
+    "notes": ""
+  },
+  {
+    "id": "ui.choose-passthm-from-files",
+    "en": "Choose .passthm from Files…",
+    "zh_Hant": "從「檔案」選擇 .passthm…",
+    "notes": ""
+  },
+  {
+    "id": "ui.clear",
+    "en": "Clear",
+    "zh_Hant": "清除",
+    "notes": ""
+  },
+  {
+    "id": "ui.interactive-lock-screen-preview",
+    "en": "Interactive Lock Screen Preview",
+    "zh_Hant": "互動式鎖定畫面預覽",
+    "notes": ""
+  },
+  {
+    "id": "ui.theme-information",
+    "en": "Theme Information",
+    "zh_Hant": "主題資訊",
+    "notes": ""
+  },
+  {
+    "id": "ui.files-in-theme",
+    "en": "Files in theme",
+    "zh_Hant": "主題中的檔案",
+    "notes": ""
+  },
+  {
+    "id": "ui.digits-styled",
+    "en": "Digits styled",
+    "zh_Hant": "已設定數字樣式",
+    "notes": ""
+  },
+  {
+    "id": "ui.n-keys",
+    "en": "\\(theme.keysPreview.count) keys",
+    "zh_Hant": "\\(theme.keysPreview.count) 個按鍵",
+    "notes": "value template next to Digits styled"
+  },
+  {
+    "id": "ui.edit-in-theme-creator",
+    "en": "Edit in Theme Creator",
+    "zh_Hant": "在主題建立器中編輯",
+    "notes": ""
+  },
+  {
+    "id": "ui.remove-unload-theme",
+    "en": "Remove / Unload Theme",
+    "zh_Hant": "移除／卸載主題",
+    "notes": ""
+  },
+  {
+    "id": "ui.flashing-theme",
+    "en": "Flashing Theme…",
+    "zh_Hant": "正在刷寫主題…",
+    "notes": ""
+  },
+  {
+    "id": "ui.retry-flash-theme",
+    "en": "Retry Flash Theme",
+    "zh_Hant": "重試刷寫主題",
+    "notes": ""
+  },
+  {
+    "id": "ui.flash-theme-to-iphone",
+    "en": "Flash Theme to iPhone",
+    "zh_Hant": "將主題刷寫到 iPhone",
+    "notes": ""
+  },
+  {
+    "id": "ui.flash-language-target",
+    "en": "Flash & Language Target",
+    "zh_Hant": "刷寫與語言目標",
+    "notes": ""
+  },
+  {
+    "id": "ui.system-caches",
+    "en": "System Caches",
+    "zh_Hant": "系統快取",
+    "notes": ""
+  },
+  {
+    "id": "ui.telephonyui-10-ios-18",
+    "en": "TelephonyUI-10 (iOS 18+)",
+    "zh_Hant": "TelephonyUI-10（iOS 18+）",
+    "notes": "KEEP cache folder name TelephonyUI-N; translate parenthetical only if desired"
+  },
+  {
+    "id": "ui.telephonyui-9-ios-16-17",
+    "en": "TelephonyUI-9 (iOS 16–17)",
+    "zh_Hant": "TelephonyUI-9（iOS 16–17）",
+    "notes": "KEEP cache folder name TelephonyUI-N; translate parenthetical only if desired"
+  },
+  {
+    "id": "ui.telephonyui-8-ios-14-15",
+    "en": "TelephonyUI-8 (iOS 14–15)",
+    "zh_Hant": "TelephonyUI-8（iOS 14–15）",
+    "notes": "KEEP cache folder name TelephonyUI-N; translate parenthetical only if desired"
+  },
+  {
+    "id": "ui.universal-all",
+    "en": "Universal (All)",
+    "zh_Hant": "通用（全部）",
+    "notes": ""
+  },
+  {
+    "id": "ui.system-language",
+    "en": "System Language",
+    "zh_Hant": "系統語言",
+    "notes": ""
+  },
+  {
+    "id": "ui.font-weight-style",
+    "en": "Font Weight / Style",
+    "zh_Hant": "字重／樣式",
+    "notes": ""
+  },
+  {
+    "id": "ui.universal-mode-flashes-600-files-for-all-languages-bold",
+    "en": "Universal mode flashes ~600 files for all languages & Bold text. Selecting a specific language (e.g. Ukrainian) speeds up flashing dramatically.",
+    "zh_Hant": "通用模式會刷寫約 600 個檔案，涵蓋所有語言與粗體文字。選取特定語言（例如烏克蘭文）可大幅加快刷寫速度。",
+    "notes": ""
+  },
+  {
+    "id": "ui.fast-mode-selected-only-targets-n-with-n",
+    "en": "Fast mode selected: only targets \\(vm.passcodeLanguageTarget.rawValue) with \\(vm.passcodeBoldTarget.rawValue).",
+    "zh_Hant": "已選取快速模式：僅針對 \\(vm.passcodeLanguageTarget.rawValue) 與 \\(vm.passcodeBoldTarget.rawValue)。",
+    "notes": ""
+  },
+  {
+    "id": "ui.slice-mode",
+    "en": "Slice Mode",
+    "zh_Hant": "裁切模式",
+    "notes": ""
+  },
+  {
+    "id": "ui.interactive-lock-screen-preview-2",
+    "en": "Interactive Lock Screen Preview",
+    "zh_Hant": "互動式鎖定畫面預覽",
+    "notes": ""
+  },
+  {
+    "id": "ui.export-passthm",
+    "en": "Export .passthm...",
+    "zh_Hant": "匯出 .passthm...",
+    "notes": ""
+  },
+  {
+    "id": "ui.clear-all",
+    "en": "Clear All",
+    "zh_Hant": "全部清除",
+    "notes": ""
+  },
+  {
+    "id": "ui.poster-image",
+    "en": "Poster Image",
+    "zh_Hant": "海報圖片",
+    "notes": ""
+  },
+  {
+    "id": "ui.change-photo",
+    "en": "Change Photo…",
+    "zh_Hant": "更換照片…",
+    "notes": ""
+  },
+  {
+    "id": "ui.select-photo-for-keypad",
+    "en": "Select Photo for Keypad…",
+    "zh_Hant": "為鍵盤選擇照片…",
+    "notes": ""
+  },
+  {
+    "id": "ui.choose-poster-image-source",
+    "en": "Choose Poster Image Source",
+    "zh_Hant": "選擇海報圖片來源",
+    "notes": ""
+  },
+  {
+    "id": "ui.photo-library-2",
+    "en": "Photo Library",
+    "zh_Hant": "照片圖庫",
+    "notes": ""
+  },
+  {
+    "id": "ui.choose-from-files-2",
+    "en": "Choose from Files…",
+    "zh_Hant": "從「檔案」選擇…",
+    "notes": ""
+  },
+  {
+    "id": "ui.cancel-4",
+    "en": "Cancel",
+    "zh_Hant": "取消",
+    "notes": ""
+  },
+  {
+    "id": "ui.slicing-style",
+    "en": "Slicing Style",
+    "zh_Hant": "裁切樣式",
+    "notes": ""
+  },
+  {
+    "id": "ui.seamless-poster",
+    "en": "Seamless Poster",
+    "zh_Hant": "無縫海報",
+    "notes": ""
+  },
+  {
+    "id": "ui.circle-buttons",
+    "en": "Circle Buttons",
+    "zh_Hant": "圓形按鈕",
+    "notes": ""
+  },
+  {
+    "id": "ui.artwork-is-clipped-into-individual-circular-button-icon",
+    "en": "Artwork is clipped into individual circular button icons.",
+    "zh_Hant": "圖稿會裁切成個別的圓形按鈕圖示。",
+    "notes": ""
+  },
+  {
+    "id": "ui.seamless-artwork-spans-across-dialer-keys-without-circu",
+    "en": "Seamless artwork spans across dialer keys without circular cuts (Adobe Dog style).",
+    "zh_Hant": "無縫圖稿會橫跨撥號鍵，不做圓形裁切（Adobe Dog 風格）。",
+    "notes": ""
+  },
+  {
+    "id": "ui.zoom-framing",
+    "en": "Zoom & Framing",
+    "zh_Hant": "縮放與構圖",
+    "notes": ""
+  },
+  {
+    "id": "ui.reset-position",
+    "en": "Reset Position",
+    "zh_Hant": "重設位置",
+    "notes": ""
+  },
+  {
+    "id": "ui.1fx",
+    "en": "%.1fx",
+    "zh_Hant": "%.1fx",
+    "notes": ""
+  },
+  {
+    "id": "ui.drag-anywhere-on-the-dialer-preview-to-reposition",
+    "en": "Drag anywhere on the dialer preview to reposition",
+    "zh_Hant": "在撥號鍵盤預覽上任意拖曳以重新定位",
+    "notes": ""
+  },
+  {
+    "id": "ui.individual-keys",
+    "en": "Individual Keys",
+    "zh_Hant": "個別按鍵",
+    "notes": ""
+  },
+  {
+    "id": "ui.tap-a-button-row-to-assign-a-custom-image",
+    "en": "Tap a button row to assign a custom image.",
+    "zh_Hant": "輕點按鍵列以指定自訂圖片。",
+    "notes": ""
+  },
+  {
+    "id": "ui.key-n",
+    "en": "Key \\(btn.digit)",
+    "zh_Hant": "按鍵 \\(btn.digit)",
+    "notes": ""
+  },
+  {
+    "id": "ui.choose-key-n-image-source-default",
+    "en": "",
+    "zh_Hant": "",
+    "notes": "nil-coalescing default; KEEP empty string"
+  },
+  {
+    "id": "ui.choose-key-n-image-source",
+    "en": "Choose Key \\(selectedDigitForPicker ?? \"\") Image Source",
+    "zh_Hant": "選擇按鍵 \\(selectedDigitForPicker ?? \"\") 的圖片來源",
+    "notes": "fixed full string with nested ?? quotes"
+  },
+  {
+    "id": "ui.photo-library-3",
+    "en": "Photo Library",
+    "zh_Hant": "照片圖庫",
+    "notes": ""
+  },
+  {
+    "id": "ui.choose-from-files-3",
+    "en": "Choose from Files…",
+    "zh_Hant": "從「檔案」選擇…",
+    "notes": ""
+  },
+  {
+    "id": "ui.cancel-5",
+    "en": "Cancel",
+    "zh_Hant": "取消",
+    "notes": ""
+  },
+  {
+    "id": "ui.flashing-theme-2",
+    "en": "Flashing Theme…",
+    "zh_Hant": "正在刷寫主題…",
+    "notes": ""
+  },
+  {
+    "id": "ui.retry-flash-theme-2",
+    "en": "Retry Flash Theme",
+    "zh_Hant": "重試刷寫主題",
+    "notes": ""
+  },
+  {
+    "id": "ui.flash-theme-to-iphone-2",
+    "en": "Flash Theme to iPhone",
+    "zh_Hant": "將主題刷寫到 iPhone",
+    "notes": ""
+  },
+  {
+    "id": "ui.drag-preview-to-reposition",
+    "en": "Drag preview to reposition",
+    "zh_Hant": "拖曳預覽以重新定位",
+    "notes": ""
+  },
+  {
+    "id": "plist.aircard-ios",
+    "en": "AirCard-iOS",
+    "zh_Hant": "AirCard-iOS",
+    "notes": "KEEP ENGLISH — display/pairing service name (CN README); KEEP TOKEN `AirCard-iOS` (Bonjour/pairing display name; CN README)"
+  },
+  {
+    "id": "plist.aircard-ios-advertises-an-on-device-pairing-service-so-",
+    "en": "AirCard-iOS advertises an on-device pairing service so this iPhone can pair with itself, and connects to the local lockdown daemon to run the exploit.",
+    "zh_Hant": "AirCard-iOS 會在裝置上提供配對服務，讓此 iPhone 能與自身配對，並連線到本機 lockdown 守護程式以執行 exploit。",
+    "notes": "Info.plist user-visible; KEEP TOKEN `AirCard-iOS` (Bonjour/pairing display name; CN README)"
+  },
+  {
+    "id": "plist.aircard-ios-needs-photo-access-to-apply-custom-card-ski",
+    "en": "AirCard-iOS needs photo access to apply custom card skins and passcode themes.",
+    "zh_Hant": "AirCard-iOS 需要取用照片，才能套用自訂卡片外觀與密碼主題。",
+    "notes": "Info.plist user-visible; KEEP TOKEN `AirCard-iOS` (Bonjour/pairing display name; CN README)"
+  },
+  {
+    "id": "plist.passcode-theme",
+    "en": "Passcode Theme",
+    "zh_Hant": "密碼主題",
+    "notes": "Info.plist user-visible"
+  },
+  {
+    "id": "plist.pairing-file",
+    "en": "Pairing File",
+    "zh_Hant": "配對檔",
+    "notes": "Info.plist user-visible"
+  },
+  {
+    "id": "plist.posterboard-wallpaper",
+    "en": "PosterBoard Wallpaper",
+    "zh_Hant": "PosterBoard 桌布",
+    "notes": "Info.plist user-visible"
+  },
+  {
+    "id": "plist.passcode-theme-archive",
+    "en": "Passcode Theme Archive",
+    "zh_Hant": "密碼主題封存檔",
+    "notes": "Info.plist user-visible"
+  },
+  {
+    "id": "plist.posterboard-wallpaper-archive",
+    "en": "PosterBoard Wallpaper Archive",
+    "zh_Hant": "PosterBoard 桌布封存檔",
+    "notes": "Info.plist user-visible"
+  },
+  {
+    "id": "plist.posterboard-wallpaper-archive-2",
+    "en": "PosterBoard Wallpaper Archive",
+    "zh_Hant": "PosterBoard 桌布封存檔",
+    "notes": "Info.plist user-visible"
+  },
+  {
+    "id": "plist.passcode-theme-archive-2",
+    "en": "Passcode Theme Archive",
+    "zh_Hant": "密碼主題封存檔",
+    "notes": "Info.plist user-visible"
+  },
+  {
+    "id": "model.pairing",
+    "en": "Pairing",
+    "zh_Hant": "配對",
+    "notes": "enum case pairing rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.wallet-cards",
+    "en": "Wallet Cards",
+    "zh_Hant": "Wallet 卡片",
+    "notes": "enum case walletCards rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.passcode",
+    "en": "Passcode",
+    "zh_Hant": "密碼",
+    "notes": "enum case passcodeThemes rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.wallpapers",
+    "en": "Wallpapers",
+    "zh_Hant": "桌布",
+    "notes": "enum case wallpapers rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.apply-passthm",
+    "en": "Apply .passthm",
+    "zh_Hant": "套用 .passthm",
+    "notes": "enum case applyTheme rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.create-theme",
+    "en": "Create Theme",
+    "zh_Hant": "建立主題",
+    "notes": "enum case themeCreator rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.poster-slice",
+    "en": "Poster Slice",
+    "zh_Hant": "海報裁切",
+    "notes": "enum case posterSlice rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.individual-keys",
+    "en": "Individual Keys",
+    "zh_Hant": "個別按鍵",
+    "notes": "enum case individualKeys rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.all-languages-universal",
+    "en": "All Languages (Universal)",
+    "zh_Hant": "所有語言（通用）",
+    "notes": "enum case all rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.ukrainian-uk",
+    "en": "Ukrainian (uk)",
+    "zh_Hant": "烏克蘭文 (uk)",
+    "notes": "enum case uk rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.russian-ru",
+    "en": "Russian (ru)",
+    "zh_Hant": "俄文 (ru)",
+    "notes": "enum case ru rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.english-en",
+    "en": "English (en)",
+    "zh_Hant": "英文 (en)",
+    "notes": "enum case en rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.other-fallback",
+    "en": "Other / Fallback",
+    "zh_Hant": "其他／備用",
+    "notes": "enum case other rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.spanish-es",
+    "en": "Spanish (es)",
+    "zh_Hant": "西班牙文 (es)",
+    "notes": "enum case es rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.german-de",
+    "en": "German (de)",
+    "zh_Hant": "德文 (de)",
+    "notes": "enum case de rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.french-fr",
+    "en": "French (fr)",
+    "zh_Hant": "法文 (fr)",
+    "notes": "enum case fr rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.polish-pl",
+    "en": "Polish (pl)",
+    "zh_Hant": "波蘭文 (pl)",
+    "notes": "enum case pl rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.italian-it",
+    "en": "Italian (it)",
+    "zh_Hant": "義大利文 (it)",
+    "notes": "enum case it rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.portuguese-pt",
+    "en": "Portuguese (pt)",
+    "zh_Hant": "葡萄牙文 (pt)",
+    "notes": "enum case pt rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.turkish-tr",
+    "en": "Turkish (tr)",
+    "zh_Hant": "土耳其文 (tr)",
+    "notes": "enum case tr rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.japanese-ja",
+    "en": "Japanese (ja)",
+    "zh_Hant": "日文 (ja)",
+    "notes": "enum case ja rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.korean-ko",
+    "en": "Korean (ko)",
+    "zh_Hant": "韓文 (ko)",
+    "notes": "enum case ko rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.chinese-zh",
+    "en": "Chinese (zh)",
+    "zh_Hant": "中文 (zh)",
+    "notes": "enum case zh rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.arabic-ar",
+    "en": "Arabic (ar)",
+    "zh_Hant": "阿拉伯文 (ar)",
+    "notes": "enum case ar rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.hebrew-he",
+    "en": "Hebrew (he)",
+    "zh_Hant": "希伯來文 (he)",
+    "notes": "enum case he rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.universal-regular-bold",
+    "en": "Universal (Regular + Bold)",
+    "zh_Hant": "通用（一般 + 粗體）",
+    "notes": "enum case both rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.bold-text-only-fast",
+    "en": "Bold Text Only (Fast)",
+    "zh_Hant": "僅粗體文字（快速）",
+    "notes": "enum case boldOnly rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "model.regular-font-only-fast",
+    "en": "Regular Font Only (Fast)",
+    "zh_Hant": "僅一般字體（快速）",
+    "notes": "enum case regularOnly rawValue shown in pickers/tabs"
+  },
+  {
+    "id": "pair.pairing-is-already-in-progress",
+    "en": "Pairing is already in progress.",
+    "zh_Hant": "配對已在進行中。",
+    "notes": "LocalizedError"
+  },
+  {
+    "id": "pair.local-network-permission-is-off-enable-it-in-settings-a",
+    "en": "Local Network permission is off. Enable it in Settings › AirCard-iOS › Local Network.",
+    "zh_Hant": "「區域網路」權限已關閉。請到設定 › AirCard-iOS › 區域網路 開啟。",
+    "notes": "LocalizedError"
+  },
+  {
+    "id": "pair.pairing-produced-an-empty-file-approve-the-pairing-requ",
+    "en": "Pairing produced an empty file. Approve the pairing request, then try again.",
+    "zh_Hant": "配對產生了空白檔案。請核准配對要求後再試一次。",
+    "notes": "LocalizedError"
+  },
+  {
+    "id": "pair.cancelled",
+    "en": "Cancelled",
+    "zh_Hant": "已取消",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "pair.starting-local-host",
+    "en": "Starting local host…",
+    "zh_Hant": "正在啟動本機主機…",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "pair.broadcasting-open-settings-to-pair",
+    "en": "Broadcasting… open Settings to pair",
+    "zh_Hant": "廣播中…請開啟「設定」以配對",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "pair.failed-empty-pairing-file",
+    "en": "Failed: empty pairing file",
+    "zh_Hant": "失敗：空白配對檔",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "pair.paired-n-nb",
+    "en": "Paired: \\(name) (\\(size)B)",
+    "zh_Hant": "已配對：\\(name)（\\(size)B）",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "pair.failed-n",
+    "en": "Failed: \\(message)",
+    "zh_Hant": "失敗：\\(message)",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "pair.advertising-open-settings-privacy-security-developer-mo",
+    "en": "Advertising — open Settings › Privacy & Security › Developer Mode",
+    "zh_Hant": "廣播中 — 請開啟設定 › 隱私權與安全性 › 開發人員模式",
+    "notes": "UI-bound pairingStatus"
+  },
+  {
+    "id": "pair.enter-pin-n-in-settings-privacy-security-developer-mode",
+    "en": "Enter PIN \\(pin) in Settings › Privacy & Security › Developer Mode › Pair with AirCard-iOS",
+    "zh_Hant": "在設定 › 隱私權與安全性 › 開發人員模式 › Pair with AirCard-iOS 輸入 PIN \\(pin)",
+    "notes": "UI-bound pairingStatus; KEEP substring `AirCard-iOS` in path (system Settings label)"
+  },
+  {
+    "id": "engine.failed-to-store-wallpaper-file-at-n",
+    "en": "Failed to store wallpaper file at \\(destinationURL.path)",
+    "zh_Hant": "無法將桌布檔案儲存到 \\(destinationURL.path)",
+    "notes": "may surface via errorMessage"
+  },
+  {
+    "id": "engine.failed-to-extract-tendies-zip-archive-code-n",
+    "en": "Failed to extract .tendies zip archive (code \\(extractRC))",
+    "zh_Hant": "無法解壓縮 .tendies zip 封存檔（代碼 \\(extractRC)）",
+    "notes": "may surface via errorMessage"
+  },
+  {
+    "id": "engine.posterboard-container-path-is-required",
+    "en": "PosterBoard Container path is required.",
+    "zh_Hant": "需要 PosterBoard 容器路徑。",
+    "notes": "may surface via errorMessage"
+  },
+  {
+    "id": "engine.failed-write-directory",
+    "en": "Failed to write directory: \\(errDesc ?? \"exploit error\")",
+    "zh_Hant": "無法寫入目錄：\\(errDesc ?? \"exploit error\")",
+    "notes": "fixed full string with nested ?? quotes"
+  },
+  {
+    "id": "engine.failed-write-directory-default",
+    "en": "exploit error",
+    "zh_Hant": "exploit error",
+    "notes": "nil-coalescing default inside engine.failed-write-directory"
+  },
+  {
+    "id": "engine.failed-inject-descriptor",
+    "en": "Failed to inject descriptor: \\(errDesc ?? \"exploit error\")",
+    "zh_Hant": "無法注入 descriptor：\\(errDesc ?? \"exploit error\")",
+    "notes": "fixed full string with nested ?? quotes"
+  },
+  {
+    "id": "engine.failed-inject-descriptor-default",
+    "en": "exploit error",
+    "zh_Hant": "exploit error",
+    "notes": "nil-coalescing default inside engine.failed-inject-descriptor"
+  },
+  {
+    "id": "tendies.choose-tendies-from-files",
+    "en": "Choose .tendies from Files…",
+    "zh_Hant": "從「檔案」選擇 .tendies…",
+    "notes": ""
+  },
+  {
+    "id": "tendies.import-more-wallpapers",
+    "en": "Import More Wallpapers…",
+    "zh_Hant": "匯入更多桌布…",
+    "notes": ""
+  },
+  {
+    "id": "tendies.posterboard-container-will-be-auto-detected-automatical",
+    "en": "PosterBoard container will be auto-detected automatically on flash.",
+    "zh_Hant": "刷寫時會自動偵測 PosterBoard 容器。",
+    "notes": ""
+  },
+  {
+    "id": "tendies.target-posterboard-container-detected",
+    "en": "Target: PosterBoard container detected ✅",
+    "zh_Hant": "目標：已偵測到 PosterBoard 容器 ✅",
+    "notes": ""
+  },
+  {
+    "id": "tendies.force-posterboard-cache-refresh",
+    "en": "Force PosterBoard Cache Refresh",
+    "zh_Hant": "強制重新整理 PosterBoard 快取",
+    "notes": ""
+  },
+  {
+    "id": "tendies.resets-file-protections-so-ios-re-indexes-wallpapers-im",
+    "en": "Resets file protections so iOS re-indexes wallpapers immediately",
+    "zh_Hant": "重設檔案保護，讓 iOS 立即重新索引桌布",
+    "notes": ""
+  },
+  {
+    "id": "tendies.n-wallpapers-imported",
+    "en": "\\(vm.tendieItems.count) Wallpapers Imported",
+    "zh_Hant": "已匯入 \\(vm.tendieItems.count) 張桌布",
+    "notes": ""
+  },
+  {
+    "id": "tendies.deselect-all",
+    "en": "Deselect All",
+    "zh_Hant": "取消全選",
+    "notes": ""
+  },
+  {
+    "id": "tendies.select-all",
+    "en": "Select All",
+    "zh_Hant": "全選",
+    "notes": ""
+  },
+  {
+    "id": "tendies.wallpapers-gallery",
+    "en": "Wallpapers Gallery",
+    "zh_Hant": "桌布圖庫",
+    "notes": ""
+  },
+  {
+    "id": "tendies.no-tendies-wallpapers-loaded-yet",
+    "en": "No .tendies wallpapers loaded yet",
+    "zh_Hant": "尚未載入 .tendies 桌布",
+    "notes": ""
+  },
+  {
+    "id": "tendies.tap-choose-tendies-from-files-or-copy-wallpapers-into-o",
+    "en": "Tap 'Choose .tendies from Files' or copy wallpapers into On My iPhone › AirCard-iOS.",
+    "zh_Hant": "輕點「從『檔案』選擇 .tendies」，或將桌布複製到「我的 iPhone › AirCard-iOS」。",
+    "notes": "KEEP substring AirCard-iOS"
+  },
+  {
+    "id": "tendies.flashing-wallpapers",
+    "en": "Flashing Wallpapers…",
+    "zh_Hant": "正在刷寫桌布…",
+    "notes": ""
+  },
+  {
+    "id": "tendies.flash-n-wallpapers",
+    "en": "Flash \\(selectedCount) Wallpaper\\(selectedCount == 1 ? \"\" : \"s\")",
+    "zh_Hant": "刷寫 \\(selectedCount) 張桌布\\(selectedCount == 1 ? \"\" : \"s\")",
+    "notes": "ternary Wallpaper/Wallpapers"
+  },
+  {
+    "id": "tendies.respring-neospring",
+    "en": "Respring (NeoSpring)",
+    "zh_Hant": "重新載入 SpringBoard（NeoSpring）",
+    "notes": ""
+  },
+  {
+    "id": "tendies.flashing-will-automatically-trigger-neospring-to-respri",
+    "en": "Flashing will automatically trigger NeoSpring to respring the device and apply your new wallpapers.",
+    "zh_Hant": "刷寫完成後會自動觸發 NeoSpring，重新載入裝置並套用新桌布。",
+    "notes": ""
+  },
+  {
+    "id": "tendies.flash-log-n-lines",
+    "en": "Flash Log (\\(vm.tendiesFlashLog.count) lines)",
+    "zh_Hant": "刷寫紀錄（\\(vm.tendiesFlashLog.count) 行）",
+    "notes": ""
+  },
+  {
+    "id": "tendies.wallpapers",
+    "en": "Wallpapers",
+    "zh_Hant": "桌布",
+    "notes": ""
+  },
+  {
+    "id": "tendies.n-items",
+    "en": "\\(item.descriptorCount) item\\(item.descriptorCount == 1 ? \"\" : \"s\")",
+    "zh_Hant": "\\(item.descriptorCount) 個項目\\(item.descriptorCount == 1 ? \"\" : \"s\")",
+    "notes": "ternary item/items"
+  },
+  {
+    "id": "tendies.information",
+    "en": "Information",
+    "zh_Hant": "資訊",
+    "notes": ""
+  },
+  {
+    "id": "tendies.name",
+    "en": "Name",
+    "zh_Hant": "名稱",
+    "notes": ""
+  },
+  {
+    "id": "tendies.file-name",
+    "en": "File Name",
+    "zh_Hant": "檔案名稱",
+    "notes": ""
+  },
+  {
+    "id": "tendies.type",
+    "en": "Type",
+    "zh_Hant": "類型",
+    "notes": ""
+  },
+  {
+    "id": "tendies.descriptors",
+    "en": "Descriptors",
+    "zh_Hant": "Descriptors",
+    "notes": ""
+  },
+  {
+    "id": "tendies.target-extension",
+    "en": "Target Extension",
+    "zh_Hant": "目標延伸功能",
+    "notes": ""
+  },
+  {
+    "id": "tendies.app-container",
+    "en": "App Container",
+    "zh_Hant": "App 容器",
+    "notes": ""
+  },
+  {
+    "id": "tendies.descriptor-archive",
+    "en": "Descriptor Archive",
+    "zh_Hant": "Descriptor 封存檔",
+    "notes": ""
+  },
+  {
+    "id": "tendies.format",
+    "en": "Format",
+    "zh_Hant": "格式",
+    "notes": ""
+  },
+  {
+    "id": "tendies.contains-sqlite-database",
+    "en": "Contains SQLite database",
+    "zh_Hant": "包含 SQLite 資料庫",
+    "notes": ""
+  },
+  {
+    "id": "tendies.warning",
+    "en": "Warning",
+    "zh_Hant": "警告",
+    "notes": ""
+  },
+  {
+    "id": "tendies.done",
+    "en": "Done",
+    "zh_Hant": "完成",
+    "notes": ""
+  },
+  {
+    "id": "readme.01.aircard-ios",
+    "en": {
+      "heading": "AirCard-iOS",
+      "body": "<p align=\"center\">\n  <img src=\"ios-app/Assets.xcassets/AppIcon.appiconset/AppIcon.png\" width=\"128\" height=\"128\" alt=\"AirCard-iOS Icon\" style=\"border-radius: 28px; box-shadow: 0 8px 24px rgba(0,0,0,0.18);\" />\n</p>\n\n<p align=\"center\">\n  Apple Wallet card skins, lock screen passcode themes, and PosterBoard wallpapers directly on iOS 27+.\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/Platform-iOS%2027+-blue?style=flat-square&logo=apple\" alt=\"Platform\" />\n  <img src=\"https://img.shields.io/badge/Swift-5.0-orange?style=flat-square&logo=swift\" alt=\"Swift\" />\n  <img src=\"https://img.shields.io/badge/Rust-FFI%20Core-red?style=flat-square&logo=rust\" alt=\"Rust\" />\n  <img src=\"https://img.shields.io/badge/License-MIT-green?style=flat-square\" alt=\"License\" />\n  <a href=\"https://www.paypal.com/donate/?hosted_button_id=98QRTC2HFRA4Y\"><img src=\"https://img.shields.io/badge/Donate-PayPal-00457C?style=flat-square&logo=paypal\" alt=\"Donate with PayPal\" /></a>\n</p>\n"
+    },
+    "zh_Hant": {
+      "heading": "AirCard-iOS",
+      "body": "<p align=\"center\">\n  <img src=\"ios-app/Assets.xcassets/AppIcon.appiconset/AppIcon.png\" width=\"128\" height=\"128\" alt=\"AirCard-iOS Icon\" style=\"border-radius: 28px; box-shadow: 0 8px 24px rgba(0,0,0,0.18);\" />\n</p>\n\n<p align=\"center\">\n  直接在 iOS 27+ 上套用 Apple Wallet 卡片外觀、鎖定畫面密碼主題，以及 PosterBoard 桌布。\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/Platform-iOS%2027+-blue?style=flat-square&logo=apple\" alt=\"Platform\" />\n  <img src=\"https://img.shields.io/badge/Swift-5.0-orange?style=flat-square&logo=swift\" alt=\"Swift\" />\n  <img src=\"https://img.shields.io/badge/Rust-FFI%20Core-red?style=flat-square&logo=rust\" alt=\"Rust\" />\n  <img src=\"https://img.shields.io/badge/License-MIT-green?style=flat-square\" alt=\"License\" />\n  <a href=\"https://www.paypal.com/donate/?hosted_button_id=98QRTC2HFRA4Y\"><img src=\"https://img.shields.io/badge/Donate-PayPal-00457C?style=flat-square&logo=paypal\" alt=\"Donate with PayPal\" /></a>\n</p>\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.02.overview",
+    "en": {
+      "heading": "Overview",
+      "body": "AirCard-iOS customizes Apple Wallet card artwork, lock screen passcode dialers, and lock screen wallpapers on device without a jailbreak.\n\nThe app communicates with internal system services over a local loopback tunnel (`10.7.0.1` or `127.0.0.1`) provided by LocalDevVPN. File operations are handled by `AirliftFFI`, a Rust library that interfaces with the AirTraffic service.\n\n> **Compatibility**: AirCard-iOS currently requires **iOS 27.0 or newer (iOS 27+)**.\n"
+    },
+    "zh_Hant": {
+      "heading": "概覽",
+      "body": "AirCard-iOS 可在無需越獄的情況下，於裝置上自訂 Apple Wallet 卡片圖稿、鎖定畫面密碼撥號鍵盤，以及鎖定畫面桌布。\n\nApp 透過 LocalDevVPN 提供的本機 loopback 通道（`10.7.0.1` 或 `127.0.0.1`）與內部系統服務通訊。檔案操作由 `AirliftFFI` 處理，這是一個與 AirTraffic 服務介接的 Rust 函式庫。\n\n> **相容性**：AirCard-iOS 目前需要 **iOS 27.0 或更新版本（iOS 27+）**。\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.03.features",
+    "en": {
+      "heading": "Features",
+      "body": "\n"
+    },
+    "zh_Hant": {
+      "heading": "功能",
+      "body": ""
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.04.apple-wallet-card-skins",
+    "en": {
+      "heading": "Apple Wallet card skins",
+      "body": "- Writes custom card artwork to Passbook caches (`cardBackgroundCombined@3x.png`, `@2x.png`, and `cardBackgroundCombined.pdf` for transit cards like Suica).\n- Flushes front-face and thumbnail caches so new artwork appears immediately when Wallet opens.\n- Detects card identifiers in real time when you bring up Apple Pay.\n- Apply artwork to individual cards or batch-flash every detected card.\n"
+    },
+    "zh_Hant": {
+      "heading": "Apple Wallet 卡片外觀",
+      "body": "- 將自訂卡片圖稿寫入 Passbook 快取（`cardBackgroundCombined@3x.png`、`@2x.png`，以及交通卡如 Suica 使用的 `cardBackgroundCombined.pdf`）。\n- 清除正面與縮圖快取，讓 Wallet 開啟時立即顯示新圖稿。\n- 當你叫出 Apple Pay 時即時偵測卡片識別碼。\n- 可為個別卡片套用圖稿，或批次刷寫所有已偵測到的卡片。\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.05.passcode-dialer-themes",
+    "en": {
+      "heading": "Passcode dialer themes",
+      "body": "- Live dialer preview with touch panning and zoom framing.\n- Full poster layout across all ten buttons, or individual circular button cutouts.\n- Targets system dialer caches (`TelephonyUI-10`).\n- Localized number subtext options, including Ukrainian and Russian Cyrillic layouts.\n- Import and export themes as `.passthm` files.\n"
+    },
+    "zh_Hant": {
+      "heading": "密碼撥號鍵盤主題",
+      "body": "- 即時撥號鍵盤預覽，支援觸控平移與縮放構圖。\n- 可將完整海報版面套用到全部十個按鍵，或裁切成個別圓形按鈕。\n- 目標為系統撥號鍵盤快取（`TelephonyUI-10`）。\n- 提供本地化數字副標選項，包含烏克蘭文與俄文西里爾字母版面。\n- 可匯入／匯出 `.passthm` 主題檔。\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.06.posterboard-wallpapers-tendies",
+    "en": {
+      "heading": "PosterBoard wallpapers (.tendies)",
+      "body": "- Import and unpack `.tendies` wallpaper archives directly from the Files app.\n- Auto-detects PosterBoard wallpaper containers and active descriptor UUIDs.\n- Injects wallpaper configurations and assets into PosterBoard storage.\n- Automatically triggers a NeoSpring respring after flashing to apply wallpapers without rebooting your iPhone.\n"
+    },
+    "zh_Hant": {
+      "heading": "PosterBoard 桌布（.tendies）",
+      "body": "- 直接從「檔案」App 匯入並解包 `.tendies` 桌布封存檔。\n- 自動偵測 PosterBoard 桌布容器與作用中的 descriptor UUID。\n- 將桌布設定與資源注入到 PosterBoard 儲存空間。\n- 刷寫後自動觸發 NeoSpring 重新載入 SpringBoard，無需重新開機即可套用桌布。\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.07.on-device-pairing",
+    "en": {
+      "heading": "On-device pairing",
+      "body": "- Advertises locally over Bonjour so the phone can pair with itself via Settings > Privacy & Security > Developer Mode > Pair with AirCard-iOS.\n- Reads and syncs pairing records automatically into `aircard_pairing.plist`.\n- Once paired, no computer or external connection is needed.\n"
+    },
+    "zh_Hant": {
+      "heading": "裝置內配對",
+      "body": "- 透過 Bonjour 在本機廣播，讓手機能在設定 > 隱私權與安全性 > 開發人員模式 > Pair with AirCard-iOS 與自身配對。\n- 自動讀取並同步配對紀錄到 `aircard_pairing.plist`。\n- 配對完成後，不需要電腦或外部連線。\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.08.prerequisites",
+    "en": {
+      "heading": "Prerequisites",
+      "body": "1. **iOS 27+**: The exploit and paths currently target iOS 27.0 and above.\n2. **LocalDevVPN**: Running in loopback mode (`10.7.0.1` or `127.0.0.1`) so local connections can reach internal device services.\n3. **Developer Mode pairing**: Pair directly in Settings > Privacy & Security > Developer Mode > Pair with AirCard-iOS, or place an existing pairing plist in the app's documents directory.\n"
+    },
+    "zh_Hant": {
+      "heading": "先決條件",
+      "body": "1. **iOS 27+**：目前的 exploit 與路徑以 iOS 27.0 及以上為目標。\n2. **LocalDevVPN**：以 loopback 模式執行（`10.7.0.1` 或 `127.0.0.1`），讓本機連線可到達內部裝置服務。\n3. **開發人員模式配對**：直接在設定 > 隱私權與安全性 > 開發人員模式 > Pair with AirCard-iOS 配對，或將既有配對 plist 放到 App 的文件目錄。\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.09.installation",
+    "en": {
+      "heading": "Installation",
+      "body": "Install `AirCard-iOS.ipa` using your preferred sideloading method:\n\n- SideStore or AltStore\n- TrollStore\n- LiveContainer\n- Xcode or iOS App Signer\n"
+    },
+    "zh_Hant": {
+      "heading": "安裝",
+      "body": "使用你偏好的側載方式安裝 `AirCard-iOS.ipa`：\n\n- SideStore 或 AltStore\n- TrollStore\n- LiveContainer\n- Xcode 或 iOS App Signer\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.10.building-from-source",
+    "en": {
+      "heading": "Building from source",
+      "body": "\n"
+    },
+    "zh_Hant": {
+      "heading": "從原始碼建置",
+      "body": ""
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.11.requirements",
+    "en": {
+      "heading": "Requirements",
+      "body": "- macOS 14.0 or newer with Xcode 16 or newer\n- XcodeGen (`brew install xcodegen`)\n- Rust toolchain (only needed if rebuilding `rust-core`)\n"
+    },
+    "zh_Hant": {
+      "heading": "需求",
+      "body": "- macOS 14.0 或更新版本，且安裝 Xcode 16 或更新版本\n- XcodeGen（`brew install xcodegen`）\n- Rust 工具鏈（僅在重新建置 `rust-core` 時需要）\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.12.build-the-ipa",
+    "en": {
+      "heading": "Build the IPA",
+      "body": "```bash\ngit clone https://github.com/mak5er/AirCard-iOS.git\ncd AirCard-iOS\n./build-ipa.sh\n```\n\nThe completed package is written to `build/AirCard-iOS.ipa`.\n"
+    },
+    "zh_Hant": {
+      "heading": "建置 IPA",
+      "body": "```bash\ngit clone https://github.com/mak5er/AirCard-iOS.git\ncd AirCard-iOS\n./build-ipa.sh\n```\n\n完成的套件會寫入 `build/AirCard-iOS.ipa`。\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.13.rebuilding-the-rust-framework",
+    "en": {
+      "heading": "Rebuilding the Rust framework",
+      "body": "To compile changes in `rust-core`:\n```bash\n./build-ios.sh\n```\n"
+    },
+    "zh_Hant": {
+      "heading": "重新建置 Rust framework",
+      "body": "若要編譯 `rust-core` 的變更：\n```bash\n./build-ios.sh\n```\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.14.repository-structure",
+    "en": {
+      "heading": "Repository structure",
+      "body": "```\nAirCard-iOS/\n├── ios-app/                   # SwiftUI application\n│   ├── AirCardApp.swift       # App entry point and lifecycle\n│   ├── AppViewModel.swift     # State management and exploit orchestration\n│   ├── ContentView.swift      # Main UI views\n│   ├── TendiesView.swift      # PosterBoard wallpaper view\n│   ├── TendiesEngine.swift    # Tendies extraction and injection logic\n│   ├── RespringHelper.swift   # NeoSpring WebKit respring implementation\n│   ├── Models.swift           # Image slicing, theme layout, archive packing\n│   ├── PairingController.swift# Bonjour host and pairing sync\n│   ├── NetworkStatus.swift    # VPN loopback detection\n│   ├── Utilities.swift        # Background keep-alive and helper functions\n│   ├── GrappaHelper.[h,m]     # ATC protocol helpers\n│   ├── Info.plist             # Bundle configuration\n│   └── Assets.xcassets/       # App icons and image sets\n├── AirliftFFI.xcframework/    # Compiled arm64 Rust static library and headers\n├── rust-core/                 # Rust core source code\n├── project.yml                # XcodeGen project definition\n├── build-ipa.sh               # IPA build script\n├── build-ios.sh               # Rust framework build script\n├── LICENSE                    # MIT License\n└── README.md                  # Project documentation\n```\n"
+    },
+    "zh_Hant": {
+      "heading": "儲存庫結構",
+      "body": "```\nAirCard-iOS/\n├── ios-app/                   # SwiftUI application\n│   ├── AirCardApp.swift       # App entry point and lifecycle\n│   ├── AppViewModel.swift     # State management and exploit orchestration\n│   ├── ContentView.swift      # Main UI views\n│   ├── TendiesView.swift      # PosterBoard wallpaper view\n│   ├── TendiesEngine.swift    # Tendies extraction and injection logic\n│   ├── RespringHelper.swift   # NeoSpring WebKit respring implementation\n│   ├── Models.swift           # Image slicing, theme layout, archive packing\n│   ├── PairingController.swift# Bonjour host and pairing sync\n│   ├── NetworkStatus.swift    # VPN loopback detection\n│   ├── Utilities.swift        # Background keep-alive and helper functions\n│   ├── GrappaHelper.[h,m]     # ATC protocol helpers\n│   ├── Info.plist             # Bundle configuration\n│   └── Assets.xcassets/       # App icons and image sets\n├── AirliftFFI.xcframework/    # Compiled arm64 Rust static library and headers\n├── rust-core/                 # Rust core source code\n├── project.yml                # XcodeGen project definition\n├── build-ipa.sh               # IPA build script\n├── build-ios.sh               # Rust framework build script\n├── LICENSE                    # MIT License\n└── README.md                  # Project documentation\n```\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.15.credits",
+    "en": {
+      "heading": "Credits",
+      "body": "- **[@mak5er](https://github.com/mak5er)**: Lead developer, UI, passcode theming, Tendies engine, on-device pairing.\n- **[@merybist](https://github.com/merybist)**: Initial base port.\n- **[AirLift](https://github.com/0xjohnnydev/airlift)** by **[0xjohnny (@0xjohnnydev)](https://github.com/0xjohnnydev)**: AirTraffic and ATAirlock sandbox escape research underlying `AirliftFFI`.\n- **[NeoSpring](https://github.com/rooootdev/neospring)**: Swift implementation by **[@skadz108](https://github.com/skadz108)** and **[@rooootdev](https://github.com/rooootdev)**, and **[@neonmodder123](https://github.com/neonmodder123)** for the WebKit GPU process respring technique.\n- Built upon concepts from the **AirCard** project.\n"
+    },
+    "zh_Hant": {
+      "heading": "致謝",
+      "body": "- **[@mak5er](https://github.com/mak5er)**：主導開發者，UI、密碼主題、Tendies 引擎、裝置內配對。\n- **[@merybist](https://github.com/merybist)**：初始基礎移植。\n- **[AirLift](https://github.com/0xjohnnydev/airlift)** by **[0xjohnny (@0xjohnnydev)](https://github.com/0xjohnnydev)**：作為 `AirliftFFI` 基礎的 AirTraffic 與 ATAirlock 沙盒逃逸研究。\n- **[NeoSpring](https://github.com/rooootdev/neospring)**：Swift 實作由 **[@skadz108](https://github.com/skadz108)** 與 **[@rooootdev](https://github.com/rooootdev)**，以及 **[@neonmodder123](https://github.com/neonmodder123)** 的 WebKit GPU process 重新載入 SpringBoard 技術。\n- 建基於 **AirCard** 專案的概念。\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.16.support",
+    "en": {
+      "heading": "Support",
+      "body": "If you want to support AirCard-iOS development:\n\n- **PayPal**: [Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=98QRTC2HFRA4Y)\n- **TON**: `UQBm9KPhtMw-XVVjirUoa09wzrlyWsbeZhKfefl1Uw-qNZ-r`\n- **USDT (TRC20)**: `TDkDMCyjYxgvkWUnQiF5Erk2RyPQMT6G1n`\n- **USDT / BNB (BEP20)**: `0x0954dc491c502849d04956ef74634aa5931a08e8`\n"
+    },
+    "zh_Hant": {
+      "heading": "支持專案",
+      "body": "若想支持 AirCard-iOS 的開發：\n\n- **PayPal**：[透過 PayPal 贊助](https://www.paypal.com/donate/?hosted_button_id=98QRTC2HFRA4Y)\n- **TON**：`UQBm9KPhtMw-XVVjirUoa09wzrlyWsbeZhKfefl1Uw-qNZ-r`\n- **USDT (TRC20)**：`TDkDMCyjYxgvkWUnQiF5Erk2RyPQMT6G1n`\n- **USDT / BNB (BEP20)**：`0x0954dc491c502849d04956ef74634aa5931a08e8`\n"
+    },
+    "notes": "README section"
+  },
+  {
+    "id": "readme.17.license",
+    "en": {
+      "heading": "License",
+      "body": "MIT License. See [LICENSE](LICENSE) for details.\n"
+    },
+    "zh_Hant": {
+      "heading": "授權條款",
+      "body": "MIT License。詳見 [LICENSE](LICENSE)。\n"
+    },
+    "notes": "README section"
+  }
+]
