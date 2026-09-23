@@ -2,12 +2,7 @@
 
 在 iOS 27+ 上直接自訂 Apple 錢包卡面、鎖定畫面密碼盤主題與 PosterBoard 桌布。
 
-本倉庫是 [Mak5er/AirCard-iOS](https://github.com/Mak5er/AirCard-iOS) 的**繁體中文**版，由 Vik1n9 維護。
-
-## 與其他專案的關係
-
-- **上游原版（英文）**：[Mak5er/AirCard-iOS](https://github.com/Mak5er/AirCard-iOS) — 功能與漏洞利用流程以此為準。
-- **簡體中文 fork**：[SheldonJoO/AirCard-iOS-CN](https://github.com/SheldonJoO/AirCard-iOS-CN) — **本倉庫與其無關**；文案是從原版**英文**重寫正體，**不是**簡轉繁。
+本倉庫是 [Mak5er/AirCard-iOS](https://github.com/Mak5er/AirCard-iOS) 的**繁體中文**版，由 Vik1n9 維護。介面文案自原版英文重寫為正體中文。
 
 ## 現況
 
